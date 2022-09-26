@@ -1,0 +1,58 @@
+Verémos los comandos más básicos de la terminal, para usarla tranquilamente.
+
+GraphicUserInterface VS CommandLineInterface.
+
+COMANDOS:
+  clear = Limpiaremos la terminal.
+
+  pwd = ("PRINT WORK DIRECTORY") Nos muestra en que ubicación (en qué carpeta) nos encontramos en la terminal.
+
+  touch = Nos permite crear un nuevo archivo.
+  echo "Hola, qué tal acá andamos" > matias.txt = Creamos un archivo con contenido.
+  cat matias.txt = Nos permite ver el contenido de un archivo.
+
+  mkdir assets = Nos permite crear una carpeta.
+  rmdir assets = Permite borrar una carpeta vacía.
+  rm matias.txt= (remove) Nos permite borrar archivos.
+  rm -r assets/ = Nos permite borrar una carpeta con todo y archivos.
+  rm -rf assets/ = Nos permite borrar forzosamente la carpeta con todo el contenido.
+
+  ls = Muestra los archivos que están dentro del directorio.
+  ls -l = Nos mostrará diferentes datos de cada archivo, tales como la fecha de creación, qué permisos tienen, el nombre de usuario, el número de proceso...
+  ls -a = Detalla los archivos dentro del directorio, incluidos los archivos ocultos.
+  ls -la = Es la combinación de ámbas.
+
+  cd = "Change Directory" Cambia de directorio.
+  cd matia/ = Accede a una carpeta.
+  cd . = Representa el directorio actual.
+  cd .. = Vuelve a la carpeta anterior.
+  cd ~ = Vuelve a la carpeta madre.
+  cd / = Nos vamos a la raiz de la carpeta GIT BASH. (En un sistema Unix volvería al directorio principal de su disco duro).
+  cd c = Volvemos a la carpeta C, la raiz de nuestro disco duro.
+  cd d = Nos vamos al disco D.
+  cd ../.. = Regresa dos directorios.
+  cd - = Nos mete en la carpeta anterior en la que estabamos.
+  cd "la la" = Nos permite ingresar a una carpeta con titulo separado.
+
+  mv matias.txt js = Nos permite mover un archivo de un directorio a otro.
+  mv matias.txt patricio.txt = Cambia el nombre del archivo.
+  mv paatricio.txt patricio.css = Cambia el tipo de archivo.
+
+  cp patricio.txt ../= (Copy) Copia ese mismo archivo en una carpeta anterior.
+  cp patricio.txt ../rodrigo.txt = Copia ese mismo archivo en la carpeta anterior y le cambia el nombre
+  cp -r assets css = Copia los archivos de una carpeta a otra.
+
+  find w* = Busca entre archivos y carpetas.
+
+  ps = Nos muestra los procesos activos.
+  kill = Nos ayuda a matar un proceso.
+
+  code = Abre Visual Studio Code.
+  code . = Ejecuta VSCode en ese mismo directorio.
+  code .. = Ejecuta VSCode un directorio anterior.
+
+  alias = Ves los alias creados.
+  alias hi="touch = hola.txt" = Creas un alias.
+
+
+
